@@ -9,11 +9,16 @@ using System.Windows.Forms;
 
 namespace FileReadAndWrite
 {
-    public partial class Form1 : Form
+    public partial class FormFile : Form
     {
-        public Form1()
+        public FormFile()
         {
             InitializeComponent();
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
